@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie2.Persistence", "MvcMovie2.Persistence\MvcMovie2.Persistence.csproj", "{DAA553F2-05BD-452D-8218-D03137702E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie2.API.Client", "MvcMovie2.API.Client\MvcMovie2.API.Client.csproj", "{9761271D-3D4D-40D1-8EBE-93F00A2FBE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie2.Domain", "MvcMovie2.Domain\MvcMovie2.Domain.csproj", "{ECDC6CAE-2E82-47F7-B1EA-170294025E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie2.API", "MvcMovie2.API\MvcMovie2.API.csproj", "{E1AF7DAE-7409-4317-BAF8-11AEA398A904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA553F2-05BD-452D-8218-D03137702E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA553F2-05BD-452D-8218-D03137702E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA553F2-05BD-452D-8218-D03137702E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA553F2-05BD-452D-8218-D03137702E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9761271D-3D4D-40D1-8EBE-93F00A2FBE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9761271D-3D4D-40D1-8EBE-93F00A2FBE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9761271D-3D4D-40D1-8EBE-93F00A2FBE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9761271D-3D4D-40D1-8EBE-93F00A2FBE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDC6CAE-2E82-47F7-B1EA-170294025E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDC6CAE-2E82-47F7-B1EA-170294025E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDC6CAE-2E82-47F7-B1EA-170294025E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDC6CAE-2E82-47F7-B1EA-170294025E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1AF7DAE-7409-4317-BAF8-11AEA398A904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AF7DAE-7409-4317-BAF8-11AEA398A904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AF7DAE-7409-4317-BAF8-11AEA398A904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AF7DAE-7409-4317-BAF8-11AEA398A904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
