@@ -66,8 +66,7 @@
 
                         <label for="inputReleaseDate" class="col-sm-3 control-label">Released</label>
                         <div class="col-sm-9">
-                            <!--<input type="datetime" class="form-control" id="inputReleaseDate" data-bind="value:ReleaseDate"/>-->
-                            <input type="date" class="form-control" id="inputReleaseDate" data-bind="datepicker: ReleaseDate, datepickerOptions: { minDate: new Date() }" />
+                           <input type="date" class="form-control" id="inputReleaseDate" data-bind="value:ReleaseDate"/>
                         </div>
 
                         <label for="inputGenre" class="col-sm-3 control-label">Genre</label>
@@ -79,7 +78,7 @@
                         <div class="col-sm-9">
                             <input type="number" step="any" class="form-control" id="inputPrice" data-bind="value:Price"/>
                         </div>
-
+                        <!--not picked up in binding? -->
                         <label for="inputRating" class="col-sm-3 control-label">Rating</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputRating" data-bind="value:Rating" />
